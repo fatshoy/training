@@ -11,3 +11,6 @@ class Date:
     @property
     def usa_date(self):
         return f'{self.month:02}-{self.day:02}-{self.year:04}'
+
+class New:
+    pass
